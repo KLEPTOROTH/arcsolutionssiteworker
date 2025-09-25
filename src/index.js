@@ -34,7 +34,7 @@ export default {
           "Authorization": `Bearer ${env.RESEND_API_KEY}`,
         },
         body: JSON.stringify({
-          from: "ARC Solutions Contact <contact@contact.arcsolutions.tech", // IMPORTANT: Replace with your verified sender from Resend
+          from: "ARC Solutions Contact <contact@contact.arcsolutions.tech>", // IMPORTANT: Replace with your verified sender from Resend
           to: ["james@arcsolutions.tech"], // The email address where you want to receive submissions
           subject: `New Contact Form Submission from ${name}`,
           html: `
