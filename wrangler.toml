@@ -1,0 +1,9 @@
+# This is the name of your Worker in the Cloudflare dashboard.
+# Make sure it matches exactly.
+name = "arc-solutions-form-handler" 
+
+# This tells Wrangler that your main Worker script is at "src/index.js"
+main = "src/index.js"
+
+# This is a required setting for versioning and ensuring stability.
+compatibility_date = "2024-03-20"
